@@ -84,7 +84,7 @@ def generar_seis_pistas():
 
     pistas.append(f"Se dice que alguien fue visto manipulando un objeto similar a {arma_real} cerca de la {random.choice(lugares)}.")
     pistas.append(f"Vecinos escucharon una discusión acalorada cerca de la {lugar_real} justo antes del incidente.")
-    pistas.append(f"{random.choice(otros_personajes)} fue visto con un {random.choice(otros_armas)} rondando la {random.choice(otros_lugares)}.")
+    pistas.append(f"{random.choice(otros_personajes)} fue visto con un {culpable_real} rondando la {random.choice(otros_lugares)}.")
     pistas.append(f"Alguien dejó un rastro de tierra que lleva hacia la {random.choice(lugares)}, aunque no fue concluyente.")
     pistas.append(f"Una testigo menciona que algo con brillo de {arma_real.split()[0]} fue visto cerca de la {random.choice(lugares)}.")
     pistas.append(f"Se rumora que {random.choice(otros_personajes)} tiene secretos financieros, razón por la que varios sospechan de él/ella.")
